@@ -1,0 +1,117 @@
+.contacts-wrap {
+  width: 100%;
+  min-height: 100vh;
+  background: #f1f1f3;
+}
+
+.contacts {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.contacts .getInTouch {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts .getInTouch .left {
+  width: 450px;
+  padding-left: 30px;
+  color: #1a1a32;
+}
+
+.contacts .getInTouch .left h2 {
+  margin-bottom: 20px;
+}
+
+.contacts .getInTouch .left p {
+  text-align: justify;
+}
+
+.contacts .getInTouch .right {
+  flex-basis: 50%;
+}
+
+.contacts .getInTouch .right img {
+  height: 380px;
+}
+
+.contacts .bottom {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.contacts .bottom .sales {
+  width: 300px;
+  /* height: 200px; */
+  padding: 20px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.contacts .bottom .sales p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.contacts .bottom .sales p.num {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.contacts .bottom .sales .call {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.contacts .bottom .sales .call svg {
+  font-size: 30px;
+}
+
+.contacts .bottom .support {
+  width: 300px;
+  /* height: 200px; */
+  padding: 20px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.contacts .bottom .support p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.contacts .bottom .support .chat {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.contacts .bottom .support .chat svg {
+  font-size: 40px;
+}

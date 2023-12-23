@@ -1,0 +1,42 @@
+.header-wrap {
+  width: 100%;
+  min-height: 80px;
+  background: #022e3e;
+  color: #fff;
+}
+
+nav {
+  width: 1280px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav .active {
+  color: #022e3e;
+  background: #fff;
+}
+
+nav a {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background: #fff;
+  color: #022e3e;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}

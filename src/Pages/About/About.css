@@ -1,0 +1,37 @@
+.about-wrap {
+  width: 100%;
+  min-height: 100vh;
+  background: #f1f1f3;
+}
+
+.about {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
+  color: #1a1a32;
+}
+
+.about .left img {
+  width: 500px;
+}
+
+.about .left p {
+  margin-top: 20px;
+  text-align: justify;
+  font-weight: 700;
+}
+
+.about .right {
+  padding: 20px;
+}
+
+.about .right h1 {
+  margin-bottom: 20px;
+}
+
+.about .right p {
+  text-align: justify;
+}

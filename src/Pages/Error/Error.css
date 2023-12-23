@@ -1,0 +1,84 @@
+.error-wrap {
+  width: 100%;
+  height: 100vh;
+  background: #344a5f;
+  color: #fff;
+}
+
+.error {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error .left {
+  width: 50%;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-left: 50px;
+}
+
+.error .left h1 {
+  margin-bottom: 20px;
+  font-size: 45px;
+}
+
+.error .left p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.error .left button {
+  border: none;
+  outline: none;
+  padding: 14px 50px;
+  color: #344a5f;
+  font-weight: 600;
+  cursor: pointer;
+  border: 2px solid #fff;
+}
+
+.error .left button.helpbtn {
+  background: #fff;
+}
+
+.error .left button.homebtn {
+  background: transparent;
+  color: #fff;
+  margin-left: 20px;
+  transition: 0.3s ease all;
+}
+
+.error .left button.homebtn:hover {
+  color: #344a5f;
+  background: #fff;
+}
+
+.error .right {
+  width: 50%;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.error .right img {
+  width: 300px;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+
+button:hover .link {
+  color: #344a022E3E5f;
+}

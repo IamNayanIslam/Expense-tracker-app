@@ -1,0 +1,44 @@
+.member-wrap {
+  width: 100%;
+  min-height: 70vh;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.member {
+  width: 300px;
+  margin: 50px auto;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.member .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  max-height: 233.4px;
+  /* padding: 20px; */
+}
+
+.member .img img {
+  width: 100%;
+  height: 200px;
+}
+
+.member .details {
+  padding: 20px;
+}
+
+.member button {
+  border: none;
+  outline: none;
+  padding: 8px 25px;
+  cursor: pointer;
+  margin-top: 10px;
+  background: #022e3e;
+  color: #fff;
+}

@@ -1,0 +1,29 @@
+.sign-complete {
+  width: 100%;
+  min-height: 100vh;
+  background: #444e5d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-complete h1 {
+  color: #dee0e6;
+}
+
+.sign-complete button {
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  padding: 12px 60px;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #fff;
+  background: #4ea95f;
+  transition: 0.3s ease all;
+}
+
+.sign-complete button:hover {
+  background: #147c27;
+}
